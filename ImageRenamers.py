@@ -49,7 +49,7 @@ out_count: int = 1
 
 while(True):
     print("")
-    print("Enter r to rename, and s and a number(with space inbetween) to change the number")
+    print("Enter r to rename, or s and a number(with space inbetween) to change the number")
     print("Enter c to get current count value")
     in_var: str = input()
     if(in_var == "r"):
@@ -65,4 +65,4 @@ while(True):
     elif(in_var == "c"):
         print("count is "+str(out_count))
     else:
-        print("wtf are you even doing try again L")
+        print("invalid input")
